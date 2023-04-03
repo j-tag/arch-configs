@@ -48,6 +48,8 @@ alias dl='curl -L -O -C -'
 alias cat='bat'
 # Plain print in bat
 alias catp='cat -Pp'
+# Use KDE clipboard in xclip
+alias xclip='xclip -selection clipboard'
 
 # Set bvim as default editor
 set -x EDITOR /usr/bin/nvim
