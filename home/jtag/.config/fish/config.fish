@@ -46,6 +46,8 @@ alias docker='doas docker'
 alias dl='curl -L -O -C -'
 # Replace cat command with bat
 alias cat='bat'
+# Plain print in bat
+alias catp='cat -Pp'
 
 # Set bvim as default editor
 set -x EDITOR /usr/bin/nvim
