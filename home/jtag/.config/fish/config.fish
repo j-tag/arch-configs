@@ -57,5 +57,10 @@ set -x EDITOR /usr/bin/nvim
 # Add Rust binaries to path
 set -a PATH $HOME/.cargo/bin
 
+# Function for downloading a list of URLs using ytdlp
+function ytdlpf -d "Download all URLs in a file passed as the argument"
+  for line in (cat $argv); ytdlp $line; end
+end
+
 # Start Starship prompt utilizing Fish shell
 starship init fish | source
