@@ -23,9 +23,7 @@ alias ytdlp='yt-dlp -f "best" --proxy socks5://127.0.0.1:45345'
 # Download video from YouTube with highest quality
 alias ytdl='yt-dlp -f "best"'
 # Git status
-alias sss='git status'
-# Git status
-alias ssss='sss'
+alias s='git status'
 # Git push
 alias push='git push'
 # Git pull
@@ -50,8 +48,15 @@ alias cat='bat'
 alias catp='cat -Pp'
 # Use KDE clipboard in xclip
 alias xclip='xclip -selection clipboard'
+# Date simple format
+alias datef='date +%F'
 
-# Set bvim as default editor
+# Custom greetings
+function fish_greeting
+    echo Welcome (set_color yellow; echo Amoo Hesam; set_color normal)
+end
+
+# Set nvim as default editor
 set -x EDITOR /usr/bin/nvim
 
 # Add Rust binaries to path
