@@ -67,5 +67,17 @@ function ytdlpf -d "Download all URLs in a file passed as the argument"
   for line in (cat $argv); ytdlp $line; end
 end
 
+# Function for converting all files from a certain extension to another extension using ffmpeg
+function ffmpegd -d "Convert all files in current directory using ffmpeg. Usage: ffmpegd 3gp mp4"
+  set -f from $argv[1]
+  set -f to $argv[2]
+  echo Converting all .$from files to .$to
+  for file in *.$from
+    set -f output_name (path change-extension $to $file)
+    echo Converting $file to $output_name ...
+    ffmpeg -i $file $output_name
+  end
+end
+
 # Start Starship prompt utilizing Fish shell
 starship init fish | source
