@@ -1,0 +1,97 @@
+# Pacstrap Packages
+
+Here we have the reasoning behind every single package and why it is needed.
+
+.Pacstrap installation packages in alphabetical order
+[options="header"]
+|=======================
+|Package|Description      
+|`ark`    |  KDE archive manager
+|`base`    |  	Minimal package set to define a basic Arch Linux installation. *NOTE:* Do *NOT* select `sudo` while installing `base`, as we will install `opendoas` instead
+|`bluedevil`    |  KDE Bluetooth integration
+|`breeze-gtk`    |  Breeze widget theme for GTK 2 and 3
+|`docker`    |  Docker environment
+|`dolphin`    |  KDE file manager
+|`dolphin-plugins`    |  KDE file manager extra plugins. Required for showing thumbnails
+|`fakeroot`    |  Tool for simulating superuser privileges. Required for AUR package installation using `makepkg`
+|`ffmpegthumbs`    |  Thumbnail provider for Dolphin
+|`filelight`    |  KDE disk usage information utility
+|`fish`    |  Shell. Fish used instead of `bash`
+|`git`    |  Git version control system
+|`gtk3`    |  Enable GTK3 support
+|`gwenview`    |  KDE image viewer
+|`haruna`    |  KDE media player
+|`hunspell`    |  Used for spell check in KDE
+|`kaccounts-providers`    |  Online account providers for the KAccounts system
+|`kate`    |  KDE text editor. Also contains KWrite
+|`kcalc`    |  KDE calculator
+|`kdeplasma-addons`    |  KDE Plasma extra addons like clock and sticky notes widget
+|`kdialog`    |  	A utility for displaying dialog boxes from shell scripts. Used for displaying notification messages by shell scrips like my custom proxy
+|`kimageformats5`    |  Support extra image formats like _AVIF_ and _HEIF_ in KDE
+|`kinfocenter`    |  KDE system information utility
+|`khelpcenter`    |  Application to show KDE Applications documentation
+|`khotkeys`    |  Used for creating custom hotkeys in KDE settings like custom hotkeys for my custom proxy
+|`konsole`    |  KDE terminal
+|`kscreen`    |  	KDE screen management software
+|`ksshaskpass`    |  Used to save SSH passwords in KDE
+|`ktorrent`    |  KDE torrent client
+|`kwallet-pam`    |  KWallet PAM integration. Used to securly save Google Chrome passwords in KDE
+|`kwalletmanager`    |  KDE Wallet management tool. Used to securly save Google Chrome passwords in KDE
+|`libdbusmenu-glib`    |  Library for passing menus over DBus. Used for displaying application menues on Plasma panel in my custom Plasma panel modifications
+|`libva-mesa-driver`    |  	VA-API drivers. Used for hardware acceleration when playing videos
+|`libvdpau-va-gl`    |  VDPAU driver with OpenGL/VAAPI backend. Used for hardware acceleration when playing videos
+|`linux`    |  The Linux kernel and modules. This is latest stable release. Use `linux-lts` if you want LTS (Long Term Support) version
+|`linux-firmware`    | Firmware files for Linux
+|`mesa-vdpau`    |  VDPAU drivers. Used for hardware acceleration when playing videos
+|`modemmanager-qt`    |  Qt wrapper for ModemManager DBus API. Used for connecting to networks
+|`neovim`    |  TUI text editor. Used instead of _vi_ or _vim_
+|`networkmanager-qt`    |  	Qt wrapper for NetworkManager API. Used for connecting to networks
+|`noto-fonts-emoji`    |  Fonts used in KDE emoji selector
+|`ntfs-3g`    |  Used to open NTFS (Windoze) filesystem
+|`nvidia`    |  	NVIDIA drivers for linux. Install only if you have an NVIDIA GPU. *NOTE:* This package is for latest NVIDIA GPUs, if you have an older GPU you should use legacy packages
+|`okular`    |  KDE PDF reader
+|`openbsd-netcat`    |  Simple tool used for various networking operations
+|`opendoas`    |  	Run commands as super user or another user. Used instead of `sudo`
+|`openssh`    |  SSH secure shell
+|`pipewire-jack`    |  audio/video router and processor. Used for recording and playing sounds
+|`plasma-browser-integration`    |  KDE Plasma integration with Google Chrome and Mozilla FireFox. Used for example for showing download progress in Plasma notification center
+|`plasma-desktop`    |  KDE Plasma
+|`plasma-nm`    |  	Plasma applet for managing network connections
+|`plasma-pa`    |  	Plasma applet for audio volume management using PulseAudio
+|`plasma-systemmonitor`    |  KDE system monitor application. Installs KSysGuard also
+|`powerdevil`    |  Manages the power consumption settings of a Plasma Shell
+|`powerline-fonts`    |  Patched fonts with custom emojies used in _Starship_ prompt
+|`proxychains-ng`    |  Proxy apps in command line. Used along with my custom proxy
+|`pulseaudio`    |  Used for playing and recording sounds
+|`sddm`    |  KDE Login manager
+|`sddm-kcm`    |  Login manager options in KDE settings
+|`spectacle`    |  KDE screenshot and screencast utility
+|`starship`    |  Custom prompt
+|`switcheroo-control`    |  Used for dual GPU. Install this only on laptops
+|`ttf-droid`    |  Google Driod font which is for Android. It has Persian and Arabic characters, so it can be useful
+|`xdg-desktop-portal-kde`    |  Used for showing KDE _open_ dialog in some applications
+|`yt-dlp`    |  Utility for downloading from YouTube and other famous websites
+|`python-websockets`    |  Used for websocket download in `yt-dlp`
+|=======================
+
+# Firewall
+
+You may want to install a custom firewall like `nftables` specially in server environment. But keep in mind that `nftable` currently has many problems with `docker`.
+
+# AUR Packages
+
+You may also want to install these packages from AUR. This can be done after system installation also.
+
+To install packages simply clone them using Git in a folder like `/opt/aur/` and then cd into their directory where there is a `PKGBUILD` file and run following command:
+
+[source, shell]
+makepkg -risc
+
+.AUR installation packages in alphabetical order
+[options="header"]
+|=======================
+|Package|Description|AUR URL 
+|`cutecom-git`    |  KDE GUI based serial terminal (git master)    |   https://aur.archlinux.org/packages/cutecom-git
+|`google-chrome`    |  Google Chrome browser    |   https://aur.archlinux.org/packages/google-chrome
+|`systemd-kcm`    |  Show systemd daemons in KDE settings    |   https://aur.archlinux.org/packages/systemd-kcm
+|=======================
