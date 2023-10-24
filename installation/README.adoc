@@ -63,6 +63,7 @@ Here we have the reasoning behind every single package and why it is needed.
 |`powerline-fonts`    |  Patched fonts with custom emojies used in _Starship_ prompt
 |`proxychains-ng`    |  Proxy apps in command line. Used along with my custom proxy
 |`pulseaudio`    |  Used for playing and recording sounds
+|`qt5-imageformats`    |  Used for `.webp` and some other image format support
 |`sddm`    |  KDE Login manager
 |`sddm-kcm`    |  Login manager options in KDE settings
 |`spectacle`    |  KDE screenshot and screencast utility
