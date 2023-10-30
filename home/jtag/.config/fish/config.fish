@@ -50,6 +50,8 @@ alias catp='cat -Pp'
 alias xclip='xclip -selection clipboard'
 # Date simple format
 alias datef='date +%F'
+# RedwoodJS shorthand
+alias rw='yarn rw'
 
 # Custom greetings
 function fish_greeting
