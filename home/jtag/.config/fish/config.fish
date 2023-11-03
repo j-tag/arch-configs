@@ -52,6 +52,8 @@ alias xclip='xclip -selection clipboard'
 alias datef='date +%F'
 # RedwoodJS shorthand
 alias rw='yarn rw'
+# Expo shorthand
+alias expo='npx expo'
 
 # Custom greetings
 function fish_greeting
