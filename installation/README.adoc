@@ -44,6 +44,7 @@ Here we have the reasoning behind every single package and why it is needed.
 |`linux-firmware`    | Firmware files for Linux
 |`mesa-vdpau`    |  VDPAU drivers. Used for hardware acceleration when playing videos
 |`modemmanager-qt`    |  Qt wrapper for ModemManager DBus API. Used for connecting to networks
+|`neovide`    |  GUI wrapper for _neovim_ 
 |`neovim`    |  TUI text editor. Used instead of _vi_ or _vim_
 |`networkmanager-qt`    |  	Qt wrapper for NetworkManager API. Used for connecting to networks
 |`noto-fonts-emoji`    |  Fonts used in KDE emoji selector
@@ -70,6 +71,7 @@ Here we have the reasoning behind every single package and why it is needed.
 |`starship`    |  Custom prompt
 |`switcheroo-control`    |  Used for dual GPU. Install this only on laptops
 |`ttf-droid`    |  Google Driod font which is for Android. It has Persian and Arabic characters, so it can be useful
+|`ttf-lilex-nerd`    |  Lilex nerd font for terminal (Konsole). Useful for NvChad
 |`xdg-desktop-portal-kde`    |  Used for showing KDE _open_ dialog in some applications
 |`yt-dlp`    |  Utility for downloading from YouTube and other famous websites
 |`python-websockets`    |  Used for websocket download in `yt-dlp`
