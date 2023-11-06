@@ -54,6 +54,10 @@ alias datef='date +%F'
 alias rw='yarn rw'
 # Expo shorthand
 alias expo='npx expo'
+# NeoVim shorthand
+alias v='nvim'
+# NeoVide shorthand
+alias nv='neovide'
 
 # Custom greetings
 function fish_greeting
