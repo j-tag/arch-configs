@@ -64,12 +64,6 @@ function fish_greeting
     echo Welcome (set_color yellow; echo Amoo Hesam; set_color normal)
 end
 
-# Set nvim as default editor
-set -x EDITOR /usr/bin/nvim
-
-# Add Rust binaries to path
-set -a PATH $HOME/.cargo/bin
-
 # Function for downloading a list of URLs using ytdlp
 function ytdlpf -d "Download all URLs in a file passed as the argument"
   for line in (cat $argv); ytdlp $line; end
@@ -86,6 +80,12 @@ function ffmpegd -d "Convert all files in current directory using ffmpeg. Usage:
     ffmpeg -i $file $output_name
   end
 end
+
+# Set nvim as default editor
+set -x EDITOR /usr/bin/nvim
+
+# Add Rust binaries to path
+set -a PATH $HOME/.cargo/bin
 
 # Start Starship prompt utilizing Fish shell
 starship init fish | source
