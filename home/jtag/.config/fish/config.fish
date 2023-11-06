@@ -46,7 +46,7 @@ alias dl='curl -L -O -C -'
 alias cat='bat'
 # Plain print in bat
 alias catp='cat -Pp'
-# Use KDE clipboard in xclip
+# Use KDE clipboard in xclip (Only for X11)
 alias xclip='xclip -selection clipboard'
 # Date simple format
 alias datef='date +%F'
