@@ -65,6 +65,7 @@ Here we have the reasoning behind every single package and why it is needed.
 |`proxychains-ng`    |  Proxy apps in command line. Used along with my custom proxy
 |`pulseaudio`    |  Used for playing and recording sounds
 |`qt5-imageformats`    |  Used for `.webp` and some other image format support
+|`qt6-wayland`    |  Enable Wayland support for Qt6 apps. Don't install it on X11
 |`sddm`    |  KDE Login manager
 |`sddm-kcm`    |  Login manager options in KDE settings
 |`spectacle`    |  KDE screenshot and screencast utility
