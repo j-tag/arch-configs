@@ -8,6 +8,7 @@ Here we have the reasoning behind every single package and why it is needed.
 |Package|Description      
 |`ark`    |  KDE archive manager
 |`base`    |  	Minimal package set to define a basic Arch Linux installation. *NOTE:* Do *NOT* select `sudo` while installing `base`, as we will install `opendoas` instead
+|`bat`    |  Cat clone with syntax highlighting and git integration
 |`bluedevil`    |  KDE Bluetooth integration
 |`breeze-gtk`    |  Breeze widget theme for GTK 2 and 3
 |`docker`    |  Docker environment
