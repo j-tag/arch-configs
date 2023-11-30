@@ -58,6 +58,10 @@ alias expo='npx expo'
 alias v='nvim'
 # NeoVide shorthand
 alias nv='neovide'
+# Connect to ExpressVPN
+alias ec='expressvpn connect'
+# Disconnect to ExpressVPN
+alias ed='expressvpn disconnect'
 
 # Custom greetings
 function fish_greeting
