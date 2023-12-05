@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=JTAG v2
+ColorScheme=JTAG v3
 Font=Lilex Nerd Font,12,-1,5,57,0,0,0,0,0,Medium
 
 [General]
