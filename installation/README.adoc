@@ -39,7 +39,7 @@ Here we have the reasoning behind every single package and why it is needed.
 |`kwallet-pam`    |  KWallet PAM integration. Used to securly save Google Chrome passwords in KDE
 |`kwalletmanager`    |  KDE Wallet management tool. Used to securly save Google Chrome passwords in KDE
 |`libdbusmenu-glib`    |  Library for passing menus over DBus. Used for displaying application menues on Plasma panel in my custom Plasma panel modifications
-|`libheif`    |  An HEIF and AVIF file format decoder and encoder
+|`libheif`    |  An HEIF and AVIF file format decoder and encoder. Used for opening iPhone images
 |`libva-mesa-driver`    |  	VA-API drivers. Used for hardware acceleration when playing videos
 |`libvdpau-va-gl`    |  VDPAU driver with OpenGL/VAAPI backend. Used for hardware acceleration when playing videos
 |`linux`    |  The Linux kernel and modules. This is latest stable release. Use `linux-lts` if you want LTS (Long Term Support) version
