@@ -60,8 +60,12 @@ alias v='nvim'
 alias nv='neovide'
 # Connect to ExpressVPN
 alias ec='expressvpn connect'
-# Disconnect to ExpressVPN
+# Disconnect from ExpressVPN
 alias ed='expressvpn disconnect'
+# (Only works in Wayland) Move cursor a little bit, then wait and then move it back and press ESC button then repeat this process every 30 seconds
+alias ms="doas watch -n 30 'ydotool mousemove -x -100 -y 100 && sleep 2 && ydotool mousemove -x 100 -y -100 && ydotool key 1:1 1:0'"
+# Refresh current uppfirst db in Docker
+alias uppdb='docker rm -f uppfirst-postgres && make database && make typeorm cmd=run'
 
 # Custom greetings
 function fish_greeting
