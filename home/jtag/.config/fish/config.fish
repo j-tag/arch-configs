@@ -19,9 +19,9 @@ alias ytdlap=' yt-dlp -x --audio-format mp3 --audio-quality 0 --embed-thumbnail 
 # Download audio from YouTube with highest quality and embed the thumbnail 
 alias ytdla='yt-dlp -x --audio-format mp3 --audio-quality 0 --embed-thumbnail'
 # Download video from YouTube using local proxy at port 45345 with highest quality
-alias ytdlp='yt-dlp -f "best" --proxy socks5://127.0.0.1:45345'
+alias ytdlp='yt-dlp --proxy socks5://127.0.0.1:45345'
 # Download video from YouTube with highest quality
-alias ytdl='yt-dlp -f "best"'
+alias ytdl='yt-dlp'
 # Git status
 alias s='git status'
 # Git push
