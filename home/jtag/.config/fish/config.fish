@@ -41,7 +41,7 @@ alias clone='git clone'
 # Run Docker with privileges
 alias docker='doas docker'
 # Download a file using CURL and show progress and ability to continue download after network fails
-alias dl='curl -L -O -C -'
+alias dl='watch -n 69 curl -L -O -C -'
 # Replace cat command with bat
 alias cat='bat'
 # Plain print in bat
