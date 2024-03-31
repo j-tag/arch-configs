@@ -62,12 +62,6 @@ alias nv='neovide'
 alias ec='expressvpn connect'
 # Disconnect from ExpressVPN
 alias ed='expressvpn disconnect'
-# (Only works in Wayland) (This is used to fooling other apps that I'm actively using my pc) Move cursor a little bit, then wait and then move it back and press ESC button then repeat this process every 30 seconds
-alias ms="doas watch -n 30 'ydotool mousemove -x -100 -y 100 && sleep 2 && ydotool mousemove -x 100 -y -100 && ydotool key 1:1 1:0'"
-# Same as above but only for X11. You need to uncomment this in X11
-#alias ms="doas watch -n 30 'xdotool mousemove 100 100 && sleep 2 && xdotool mousemove 200 200 && xdotool key Escape'"
-# Refresh current uppfirst db in Docker
-alias uppdb='docker rm -f uppfirst-postgres && make database && make typeorm cmd=run'
 
 # Custom greetings
 function fish_greeting
@@ -75,8 +69,8 @@ function fish_greeting
 end
 
 # Function for downloading a list of URLs using ytdlp
-function ytdlpf -d "Download all URLs in a file passed as the argument"
-  for line in (cat $argv); ytdlp $line; end
+function ytdlf -d "Download all URLs in a file passed as the argument"
+  for line in (cat $argv); ytdl $line; end
 end
 
 # Function for converting all files from a certain extension to another extension using ffmpeg
