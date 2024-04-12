@@ -1,11 +1,5 @@
 # Clear Konsole buffer
 alias cls='echo -e "\e[3J" && reset'
-# Go to Qt projects
-alias code='cd /home/jtag/QtProjects/ && pwd'
-# Go to Pure project
-alias pure='cd "/home/jtag/Hesam BOSS/PureSoft/Website/pure/" && pwd'
-# Go to Xirac project
-alias x='cd /home/jtag/QtProjects/xirac-platform/ && pwd'
 # Setup proxy server on port 45345
 alias ssh-d='kwriteconfig5 --file kioslaverc --group "Proxy Settings" --key ProxyType "1" && ssh -o ExitOnForwardFailure=yes -f -D 0.0.0.0:45345 -N <USER>@<HOST> -p <PORT>'
 # Stop proxy connection
@@ -14,14 +8,14 @@ alias unssh-d='kwriteconfig5 --file kioslaverc --group "Proxy Settings" --key Pr
 alias p4q='proxychains4 -q'
 # Simple list
 alias ll='ls -lh'
-# Download audio from YouTube using local proxy at port 45345 with highest quality and embed the thumbnail 
-alias ytdlap=' yt-dlp -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --proxy socks5://127.0.0.1:45345'
 # Download audio from YouTube with highest quality and embed the thumbnail 
 alias ytdla='yt-dlp -x --audio-format mp3 --audio-quality 0 --embed-thumbnail'
-# Download video from YouTube using local proxy at port 45345 with highest quality
-alias ytdlp='yt-dlp --proxy socks5://127.0.0.1:45345'
+# Download audio from YouTube using local proxy at port 45345 with highest quality and embed the thumbnail 
+alias ytdlap='ytdla --proxy socks5://127.0.0.1:45345'
 # Download video from YouTube with highest quality
 alias ytdl='yt-dlp'
+# Download video from YouTube using local proxy at port 45345 with highest quality
+alias ytdlp='ytdl --proxy socks5://127.0.0.1:45345'
 # Git status
 alias s='git status'
 # Git push
@@ -38,6 +32,8 @@ alias commit='git commit'
 alias add='git add'
 # Git clone
 alias clone='git clone'
+# Git merge
+alias merge='git merge'
 # Run Docker with privileges
 alias docker='doas docker'
 # Download a file using CURL and show progress and ability to continue download after network fails
@@ -46,8 +42,6 @@ alias dl='watch -n 69 curl -L -O -C -'
 alias cat='bat'
 # Plain print in bat
 alias catp='cat -Pp'
-# Use KDE clipboard in xclip (Only for X11)
-alias xclip='xclip -selection clipboard'
 # Date simple format
 alias datef='date +%F'
 # RedwoodJS shorthand
