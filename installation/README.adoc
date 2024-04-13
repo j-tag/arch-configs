@@ -58,6 +58,7 @@ Here we have the reasoning behind every single package and why it is needed.
 |`opendoas`    |  	Run commands as super user or another user. Used instead of `sudo`
 |`openssh`    |  SSH secure shell
 |`pipewire-jack`    |  audio/video router and processor. Used for recording and playing sounds
+|`plasma-applet-window-buttons`    |  Plasma applet in order to show window buttons in your panels
 |`plasma-browser-integration`    |  KDE Plasma integration with Google Chrome and Mozilla FireFox. Used for example for showing download progress in Plasma notification center
 |`plasma-desktop`    |  KDE Plasma
 |`plasma-nm`    |  	Plasma applet for managing network connections
