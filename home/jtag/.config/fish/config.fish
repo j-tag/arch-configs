@@ -34,8 +34,6 @@ alias add='git add'
 alias clone='git clone'
 # Git merge
 alias merge='git merge'
-# Run Docker with privileges
-alias docker='doas docker'
 # Download a file using CURL and show progress and ability to continue download after network fails
 alias dl='watch -n 69 curl -L -O -C -'
 # Replace cat command with bat
