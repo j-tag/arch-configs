@@ -76,6 +76,7 @@ Here we have the reasoning behind every single package and why it is needed.
 |`starship`    |  Custom prompt
 |`switcheroo-control`    |  Used for dual GPU. Install this only on laptops
 |`ttf-droid`    |  Google Driod font which is for Android. It has Persian and Arabic characters, so it can be useful
+|`ttf-lato`    |  Beautiful Lato font
 |`ttf-lilex-nerd`    |  Lilex nerd font for terminal (Konsole). Useful for NvChad
 |`wl-clipboard`    |  Command-line copy/paste utilities for Wayland 
 |`xdg-desktop-portal-kde`    |  Used for showing KDE _open_ dialog in some applications
