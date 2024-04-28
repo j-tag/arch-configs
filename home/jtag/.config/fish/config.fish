@@ -54,6 +54,10 @@ alias nv='neovide'
 alias ec='expressvpn connect'
 # Disconnect from ExpressVPN
 alias ed='expressvpn disconnect'
+# Restart Docker service
+alias dr='doas systemctl restart docker'
+# Stop Docker service
+alias ds='doas systemctl stop docker'
 
 # Custom greetings
 function fish_greeting
