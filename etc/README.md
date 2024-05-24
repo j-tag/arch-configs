@@ -19,6 +19,12 @@ In this file I'll add the `-j$(nproc)` flag to `MAKEFLAGS` to allow `makepkg` to
 
 In this file I'll update `MODULES` config to add NVIDIA modules to `initramfs`. This is necessary if you are using an NVIDIA GPU. Also if you add these modules, you should not add the config file to `modprobe.d` to enable these modules again.
 
+After changing `mkinitcpio.conf` file you should run this command to re-gennerate initramfs:
+
+```sh
+doas /usr/bin/mkinitcpio -P
+```
+
 ## pacman.conf
 
 In this file I'll update `ParallelDownloads` flag to `5` to allow **pacman** to download files in parallel. Useful for fast network connections.  
