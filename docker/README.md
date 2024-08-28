@@ -1,6 +1,6 @@
 # Docker Related Commands
 
-This directory conttains commands related to Docker.
+This directory contains commands related to Docker.
 
 ## prune.fish
 
