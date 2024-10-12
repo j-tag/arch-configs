@@ -39,6 +39,8 @@ Here we have the reasoning behind every single package and why it is needed.
 |`ktorrent`    |  KDE torrent client
 |`kwallet-pam`    |  KWallet PAM integration. Used to securly save Google Chrome passwords in KDE
 |`kwalletmanager`    |  KDE Wallet management tool. Used to securly save Google Chrome passwords in KDE
+|`libblockdev-smart`    |  A library for manipulating block devices - S.M.A.R.T. support. Also includes support for NVMe devices.
+|`libdbusmenu-glib`    |  Library for passing menus over DBus. Used for displaying application menues on Plasma panel in my custom Plasma panel modifications
 |`libdbusmenu-glib`    |  Library for passing menus over DBus. Used for displaying application menues on Plasma panel in my custom Plasma panel modifications
 |`libheif`    |  An HEIF and AVIF file format decoder and encoder. Used for opening iPhone images
 |`libva-mesa-driver`    |  	VA-API drivers. Used for hardware acceleration when playing videos
