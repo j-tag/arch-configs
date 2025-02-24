@@ -18,6 +18,8 @@ alias ytdl='yt-dlp'
 alias ytdlp='ytdl --proxy socks5://127.0.0.1:45345'
 # Git status
 alias s='git status'
+# Git fetch
+alias f='git fetch'
 # Git push
 alias push='git push'
 # Git pull
@@ -34,6 +36,8 @@ alias add='git add'
 alias clone='git clone'
 # Git merge
 alias merge='git merge'
+# Git rebase
+alias rebase='git rebase'
 # Download a file using CURL and show progress and ability to continue download after network fails
 alias dl='watch -n 69 curl -L -O -C -'
 # Replace cat command with bat
