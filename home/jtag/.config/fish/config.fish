@@ -62,6 +62,8 @@ alias ed='expressvpn disconnect'
 alias dr='doas systemctl restart docker'
 # Stop Docker service
 alias ds='doas systemctl stop docker'
+# Make shorthand
+alias m='make'
 
 # Custom greetings
 function fish_greeting
