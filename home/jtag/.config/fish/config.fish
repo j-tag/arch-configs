@@ -64,6 +64,8 @@ alias dr='doas systemctl restart docker'
 alias ds='doas systemctl stop docker'
 # Make shorthand
 alias m='make'
+# Docker shorthand
+alias d='docker'
 
 # Custom greetings
 function fish_greeting
