@@ -22,7 +22,8 @@ Here we have the reasoning behind every single package and why it is needed.
 |`gtk3`    |  Enable GTK3 support
 |`gwenview`    |  KDE image viewer
 |`haruna`    |  KDE media player
-|`hunspell`    |  Used for spell check in KDE
+|`hunspell`    |  Used for spell checking in KDE
+|`hunspell-en_us`    |  English language for Hunspell
 |`intel-ucode`   | Used for fixing vulnerabilities on Intel CPUs (for AMD CPUs install `amd-ucode`)
 |`kaccounts-providers`    |  Online account providers for the KAccounts system
 |`kate`    |  KDE text editor. Also contains KWrite
