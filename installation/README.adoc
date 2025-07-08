@@ -60,8 +60,12 @@ Here we have the reasoning behind every single package and why it is needed.
 |`openbsd-netcat`    |  Simple tool used for various networking operations
 |`opendoas`    |  	Run commands as super user or another user. Used instead of `sudo`
 |`openssh`    |  SSH secure shell
+|`pipewire`    | Low-latency audio/video router and processor
+|`pipewire-alsa`    | ALSA configuration for pipewire
+|`pipewire-audio`    | Audio support for pipewire
 |`pipewire-jack`    |  audio/video router and processor. Used for recording and playing sounds
 |`pipewire-libcamera`    |  Libcamera support for pipewire
+|`pipewire-pulse`    |  PulseAudio replacement of pipewire
 |`plasma-applet-window-buttons`    |  Plasma applet in order to show window buttons in your panels
 |`plasma-browser-integration`    |  KDE Plasma integration with Google Chrome and Mozilla FireFox. Used for example for showing download progress in Plasma notification center
 |`plasma-desktop`    |  KDE Plasma
@@ -72,7 +76,6 @@ Here we have the reasoning behind every single package and why it is needed.
 |`powerdevil`    |  Manages the power consumption settings of a Plasma Shell
 |`powerline-fonts`    |  Patched fonts with custom emojies used in _Starship_ prompt
 |`proxychains-ng`    |  Proxy apps in command line. Used along with my custom proxy
-|`pulseaudio`    |  Used for playing and recording sounds
 |`qt6-imageformats`    |  Used for `.webp` and some other image format support
 |`qt6-wayland`    |  Enable Wayland support for Qt6 apps. Don't install it on X11
 |`sddm`    |  KDE Login manager
@@ -83,6 +86,7 @@ Here we have the reasoning behind every single package and why it is needed.
 |`ttf-droid`    |  Google Driod font which is for Android. It has Persian and Arabic characters, so it can be useful
 |`ttf-lato`    |  Beautiful Lato font
 |`ttf-lilex-nerd`    |  Lilex nerd font for terminal (Konsole). Useful for NvChad
+|`wireplumber`    |  	Session / policy manager implementation for PipeWire
 |`wl-clipboard`    |  Command-line copy/paste utilities for Wayland 
 |`xdg-desktop-portal-kde`    |  Used for showing KDE _open_ dialog in some applications
 |`yt-dlp`    |  Utility for downloading from YouTube and other famous websites
