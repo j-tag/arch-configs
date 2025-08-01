@@ -4,4 +4,4 @@ This repo contains my personal and go-to configurations and packages on my Arch 
 
 All of these configurations are tuned to meet my personal needs, you can use them however you want.
 
-Also I keep some useful commands here that may comes in handy sometimes.
+Also, I keep some useful commands here that may come in handy sometimes.
