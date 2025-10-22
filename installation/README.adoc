@@ -112,5 +112,4 @@ makepkg -risc
 |Package|Description|AUR URL 
 |`cutecom-git`    |  KDE GUI based serial terminal (git master)    |   https://aur.archlinux.org/packages/cutecom-git
 |`google-chrome`    |  Google Chrome browser    |   https://aur.archlinux.org/packages/google-chrome
-|`systemd-kcm`    |  Show systemd daemons in KDE settings    |   https://aur.archlinux.org/packages/systemd-kcm
 |=======================
