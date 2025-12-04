@@ -46,24 +46,12 @@ alias cat='bat'
 alias catp='cat -Pp'
 # Date simple format
 alias datef='date +%F'
-# RedwoodJS shorthand
-alias rw='yarn rw'
-# Expo shorthand
-alias expo='npx expo'
 # NeoVim shorthand
 alias v='nvim'
-# NeoVide shorthand
-alias nv='neovide'
-# Connect to ExpressVPN
-alias ec='expressvpn connect'
-# Disconnect from ExpressVPN
-alias ed='expressvpn disconnect'
 # Restart Docker service
 alias dr='doas systemctl restart docker'
 # Stop Docker service
 alias ds='doas systemctl stop docker'
-# Make shorthand
-alias m='make'
 # Docker shorthand
 alias d='docker'
 
