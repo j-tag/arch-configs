@@ -112,4 +112,5 @@ makepkg -risc
 |Package|Description|AUR URL 
 |`cutecom-git`    |  KDE GUI based serial terminal (git master)    |   https://aur.archlinux.org/packages/cutecom-git
 |`google-chrome`    |  Google Chrome browser    |   https://aur.archlinux.org/packages/google-chrome
+|`networkmanager-ssh`    |  SSH VPN provider for NetworkManager (requires `autoconf`, `automake`, `patch` and `pkgconf` to be installed)    |   https://aur.archlinux.org/packages/networkmanager-ssh
 |=======================
